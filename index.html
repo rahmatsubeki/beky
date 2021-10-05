@@ -26,7 +26,20 @@
           </div>
           <div>
             <label for="kelas" class="form-label">Kelas</label>
-            <input type="text" class="form-control" id="Kelas" aria-describedby="Kelas" name="Kelas" />
+            <select class="form-control" id="Kelas" name="Kelas">
+                  <option>7A</option>
+                  <option>7B</option>
+                  <option>7C</option>
+                  <option>7D</option>
+                  <option>8A</option>
+                  <option>8B</option>
+                  <option>8C</option>
+                  <option>8D</option>
+                  <option>9A</option>
+                  <option>9B</option>
+                  <option>9C</option>
+                  <option>9D</option>
+            </select>
           </div>
           <div>
             <label for="Kendala" class="form-label">Kendala</label>
@@ -63,6 +76,7 @@
             btnLoading.classList.toggle('d-none');
             btnKirim.classList.toggle('d-none');
             myAlert.classList.toggle('d-none');
+            return.reset();
             console.log('Success!', response);
           })
           .catch((error) => console.error('Error!', error.message));
