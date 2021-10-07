@@ -49,10 +49,12 @@ h1 {
   font-weight: bold;
   color: #fff;
 }
+*/
 .login-box input {
   width: 100%;
   margin-bottom: 20px;
 }
+//
 .login-box input[type='Username'],
 input[type='Password'] {
   border: none;
@@ -62,7 +64,8 @@ input[type='Password'] {
   height: 40px;
   color: #fff;
   font-size: 16px;
-}
+}*/
+
 .login-box input[type='submit'] {
   border: none;
   outline: none;
@@ -77,7 +80,7 @@ input[type='Password'] {
   background: #e33d56;
   color: #fff;
 }
-.login-box a {
+/*.login-box a {
   text-decoration: none;
   font-size: 14px;
   color: #fff;
